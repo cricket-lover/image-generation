@@ -1,0 +1,101 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1c2225;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  display: block;
+}
+
+input,
+select {
+  font: inherit;
+  padding: 0;
+}
+
+h1 {
+  color: lightblue;
+}
+
+.prompt-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.prompt-label {
+  font-size: 1.4rem;
+  color: lightblue;
+}
+
+.prompt-input {
+  height: 2rem;
+  width: 34rem;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid lightblue;
+  margin-left: 1rem;
+  padding: 0 4px;
+}
+
+.prompt-input-count {
+  height: 2rem;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid lightblue;
+  margin-left: 1rem;
+  padding: 0 4px;
+}
+
+.generate-image-btn {
+  border: none;
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: 4px;
+  color: #1c2225;
+  background-color: lightblue;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.input-container {
+  align-self: flex-start;
+}
+
+.error-container {
+  color: rgb(251, 61, 61);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.images-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.size-dropdown {
+  height: 2rem;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid lightblue;
+  margin-left: 1rem;
+  width: 10rem;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  gap: 2rem;
+  height: 2rem;
+  justify-content: space-between;
+  width: 100%;
+}
