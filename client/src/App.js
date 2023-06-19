@@ -51,7 +51,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="container">
       <div className="prompt-container">
         <h1>Generate Images with a Description</h1>
         <div className="input-container">

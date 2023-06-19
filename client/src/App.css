@@ -19,6 +19,12 @@ h1 {
   color: lightblue;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .prompt-container {
   display: flex;
   gap: 2rem;
@@ -98,4 +104,23 @@ h1 {
   height: 2rem;
   justify-content: space-between;
   width: 100%;
+}
+
+::placeholder {
+  opacity: 0.4;
+}
+
+@media screen and (width < 550px) {
+  .prompt-input {
+    width: 100rem;
+    margin-left: 0;
+  }
+  .size-dropdown {
+    width: 5rem;
+  }
+  img {
+    padding: 8px;
+    width: 100%;
+    height: auto;
+  }
 }
